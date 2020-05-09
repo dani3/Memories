@@ -19,6 +19,8 @@
         <activity android:name=".MemoriesActivity" />
         <activity android:name=".FirstYearActivity" />
         <activity android:name=".ThirdYearActivity" />
+        <activity android:name=".AboutMeActivity" />
+        <activity android:name=".WtfActivity" />
     </application>
 
 </manifest>
