@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dark_background"
+    android:padding="16dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="100dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textIdle"
+                android:text="Todo sobre mi"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textIdle"
+                android:layout_marginTop="8dp"
+                android:text="Mientras hago el resto de pantallas, me gustaría contarte cosas sobre mi. En realidad, quiero abrirme del todo
+y contarte toda mi vida. Desde el principio. Creo que te ayudará a entenderme mejor.\n\n
+
+Fui a una guardería llamada Vicky, no recuerdo muchas cosas, salvo que me daba miedo una señora, que nos daban de desayunar galletas con leche
+con nata (puaj). A veces nos hacían bailar y yo ya lo pasaba fatal esos días, marcaba maneras.\n\n
+
+Después en el colegio, bueno, fue un poco infierno, todos ya se conocían de parvulitos, y yo era el nuevo. No sé cuando exactamente empezó,
+pero empecé a ser centro de los insultos. Lo que más me afectaba, con mucha diferencia era que me llamaran cabeza huevo, y yo era consciente
+de que tenía una cabeza un poco rara, la verdad es que no se cortaba ninguno. En clase era lo suficientemente constante como para que me
+calase, era como un taladro. Y lo peor es que en casa tampoco podía descansar, porque, aunque fueron pocas veces, mi hermano también me
+lo decía, y no veas cómo me afectaba eso. Ni en casa podía dejar de pensar en eso. Estaba obsesionado. Hasta le dije a mi madre que me comprara
+gomina, y lo que hacía era aplastarme el pelo para disimularlo. Y con eso vino además el estar siempre alerta por si alguien me tocaba
+la cabeza, algo que sigue hasta hoy. Pero vamos, en el colegio no era sólo eso. Me decían que tenía las orejas raras, me llamaban girafa, hasta
+que tenía unos pulgares muy raros... La verdad, se dejaban pocas cosas. Además le sumas que los del curso superior eran un poco macarras, el
+chaval que terminó de portero de un tugurio, otro que fue skinhead, gitanos... Me aterraban las excursiones y las salidas a los teatros, por
+el riesgo que fuese el centro de atención. Siempre intentaba decirle a mi madre que hiciese un justificante para no ir. Recuerdo una excursión,
+madre mía, fue horrible, la primera vez en la que estuve a punto de llorar en medio de la calle. Se cebaron bien esa vez. Recuerdo que uno de
+ellos me dijo, pero por qué te pones así? si yo viviese en un chalet me daría igual esto...\n\n
+
+Además yo era el típico niño bueno que las profesoras cuando había follón siempre decían, mirad Daniel qué callado y que bien se porta...
+Y yo... allá que vamos. Esto era en el colegio, luego en Campodón apenas tenía amigos, estaba el salido este, y gente mucho más mayor.
+Me tiraba un montón de tiempo solo, a veces jugábamos al fútbol, o a jugar a personas normales (yo fingiendo que estaba casado
+con Amaya Montero, mi primera crush). Los veranos los pasaba tranquilos, quitando ese verano en el que mi madre decidió apuntarme a natación.
+Cosa que yo odiaba, principalmente porque yo era el mayor, y ahí estaba, con casi bebés aprendiendo a nadar. Qué mal lo pasaba, me despertaba
+2h antes y me amotinaba en el sillón que tenía mi hermano en su habitación. Pero el resto era tranquilo, con mi madre haciéndome aprender
+mecanografía y las capitales de Europa (rápido, ¿capital de Macedonia?)\n\n
+
+Luego llegó el instituto, al principio mejoró la cosa, supongo que porque los de mi clase ya se tenían que preocupar de los mayores. Y eso
+me dejó respirar un tiempo. Aunque siempre había algunas cosas, pero no me afectaban tanto. Sí lo pasaba mal en los momentos en los que
+podía ser el centro de atención, pero el resto bueno, era más preocuparse de no mirarle mal a ninguno del grupo de los gitanos y de otros
+canis. La famosa banda del chupete, que se dedicaba a disparar con escopetas de bolines por las ventanas... Pero ahí fue cuando vino la genética,
+que es una cachonda, y decidió que con 16 años sería una buena idea que se me cayese el pelo. No sé cómo pasó, no recuerdo una transición, de
+repente tenía entradas, estando en el instituto. Granos y perdiendo pelo. Esa fue mi entrada al bachillerato. Aquí "/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/ic_next"/>
+
+</FrameLayout>

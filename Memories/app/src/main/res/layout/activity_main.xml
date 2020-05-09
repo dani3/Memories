@@ -15,7 +15,7 @@
         android:layout_marginStart="64dp"
         android:layout_marginEnd="64dp"
         android:textColor="@color/textIdle"
-        android:text="Contaseña por favor, dale al coco ;)"/>
+        android:text="Para entrar, resuelve esta adivinanza.\n\nAbriste la nevera y, al verlos, hiciste 'chaan, chan chan chaaaan'. Además hacen la onomatopeya de mi nombre."/>
 
     <androidx.appcompat.widget.AppCompatEditText
         android:id="@+id/password_edittext"

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dark_background"
+    android:padding="16dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="100dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textIdle"
+                android:text="El segundo año"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textIdle"
+                android:layout_marginTop="8dp"
+                android:text="El segundo año fue... duro, la verdad, para los dos. Pero cosas tristes aquí no, hemos venido a jugar."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/textIdle"
+                android:text="El tercer año"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textIdle"
+                android:layout_marginTop="8dp"
+                android:text="El reencuentro fue peculiar, aunque muy nuestro. Yo quería abrirme del todo y decirte lo que sentía por ti. Y cuando pensé que ya no íbamos a volver a hablar en mucho tiempo, me encuentro con ese gif del perro... todavía sigo sin saber qué significaba, pero creo que era tu forma de decir, 'no te vayas'."/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="128dp"
+                    android:layout_height="216dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:src="@drawable/third_year_1"
+                    android:scaleType="fitXY"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textIdle"
+                    android:layout_marginTop="8dp"
+                    android:text="Y volvimos a hablar, al mes y medio o así nos vimos. Quedamos en tu uni, sonará una tontería, pero estaba super nervioso por el pelo. Pero me alegré mucho de verte. Ahí fue cuando fuimos al Vips y te di mi super seguro anti-achuchones.\n\nEse finde también fue cuando nos dimos los regalitos, tú me diste la taza y el O'Connor. Me encantaron :)"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textIdle"
+                android:layout_marginTop="8dp"
+                android:text="Al mes tuviste un bajón importante y dije, a tomar por culo, allá que voy. Y allí que me planté, nos vimos en tu casa un ratito,
+pero fue intenso la verdad. Recuerdo que al principio te costó un poco abrirte, pero me dijiste de ir al salón me contaste. Te dije de
+eso cambiaría, que nos iríamos de viaje, y me encantó oír que tú también querías. Cuando nos íbamos, madre mía, te di una palmada en el culo...
+\n\n
+Recuerdo dejarte el coche después, y cuando terminamos te me lanzaste y te cogí del culo otra vez... que vergu... pero... ejem ejem, ibas a darme un beso jiji"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textIdle"
+                android:layout_marginTop="8dp"
+                android:text="Aquí tienes una foto mía en la cena de empresa de Valid, mi cara es de... qué estoy haciendo con mi vida..."/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp"
+                android:weightSum="1">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="175dp"
+                    android:layout_weight=".5"
+                    android:scaleType="fitXY"
+                    android:layout_marginEnd="4dp"
+                    android:src="@drawable/third_year_2"/>
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="175dp"
+                    android:layout_weight=".5"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/third_year_3"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textIdle"
+                android:layout_marginTop="8dp"
+                android:text="Y aquí estoy yo haciendome el borracho estando borracho... es broma, estaba sobrio, lo cual no sé si es mejor..."/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp"
+                android:weightSum="1">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="275dp"
+                    android:layout_weight=".5"
+                    android:scaleType="fitXY"
+                    android:layout_marginEnd="4dp"
+                    android:src="@drawable/third_year_4"/>
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="275dp"
+                    android:layout_weight=".5"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/third_year_5"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textIdle"
+                android:layout_marginTop="8dp"
+                android:text="Avanza para saber más de mí."/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/ic_next"/>
+
+</FrameLayout>

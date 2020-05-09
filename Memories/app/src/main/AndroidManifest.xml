@@ -18,6 +18,7 @@
         </activity>
         <activity android:name=".MemoriesActivity" />
         <activity android:name=".FirstYearActivity" />
+        <activity android:name=".ThirdYearActivity" />
     </application>
 
 </manifest>
