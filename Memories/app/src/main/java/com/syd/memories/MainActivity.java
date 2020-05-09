@@ -21,11 +21,11 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (password.getText().toString().equalsIgnoreCase("pepinillos")) {
+                //if (password.getText().toString().equalsIgnoreCase("pepinillos")) {
                     Intent intent = new Intent(MainActivity.this, MemoriesActivity.class);
                     startActivity(intent);
                     finish();
-                }
+                //}
             }
         });
     }

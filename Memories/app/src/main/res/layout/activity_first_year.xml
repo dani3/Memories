@@ -1,8 +1,276 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/dark_background">
+    android:background="@drawable/dark_background"
+    android:padding="16dp">
 
-</LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="100dp">
+            
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textIdle"
+                android:text="Cuando nos conocimos"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textIdle"
+                android:layout_marginTop="8dp"
+                android:text="Todo empezó con esto:"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="128dp"
+                    android:layout_height="216dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:src="@drawable/first_year_classes"
+                    android:scaleType="fitXY"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textIdle"
+                    android:layout_marginTop="8dp"
+                    android:text="Qué graciosa estuviste el primer día, conteniéndote la risa con poco éxito. Me acuerdo del ejercicio que estuvimos viendo, uno sobre calcular el área de círculo dentro de un cuadrado, o algo así. Todavía lo tengo en casa de mi padre. Siempre que voy para allá lo veo y me hace sonreír."/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textIdle"
+                android:layout_marginTop="8dp"
+                android:text="Después qué te voy a contar que no sepas, nunca me había sentido tan feliz hasta que te conocí. Estaba deseando que llegara el martes para volver a verte, me acuerdo que me arreglaba más para verte, y dejaba la colonia en la guantera del coche para echármela al salir del trabajo."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textIdle"
+                android:layout_marginTop="8dp"
+                android:text="Esa noche cuando nos contamos por primera vez nuestras vidas, cuando nos abrazamos por primera vez. Fue precioso. Y la noche que me dijiste que te gustaba, qué nerviosos estábamos madre mía, yo pensaba que me ibas a decir todo lo contrario... Tengo las fotos que te hice ese día :)"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp"
+                android:weightSum="1">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight=".5"
+                    android:scaleType="fitXY"
+                    android:layout_marginEnd="4dp"
+                    android:src="@drawable/first_year_gustar_1"/>
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight=".5"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/first_year_gustar_2"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textIdle"
+                android:layout_marginTop="8dp"
+                android:textSize="10sp"
+                android:text="Siempre diva nunca indiva, con tus famosas zapatillas ponzoñosas rosas (love u)"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textIdle"
+                android:layout_marginTop="8dp"
+                android:text="También tengo estas fotos random de esa época"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp"
+                android:weightSum="1">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_weight=".33"
+                    android:scaleType="fitXY"
+                    android:layout_marginEnd="4dp"
+                    android:src="@drawable/first_year_random_1"/>
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_weight=".33"
+                    android:scaleType="fitXY"
+                    android:layout_marginEnd="4dp"
+                    android:src="@drawable/first_year_random_2"/>
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_weight=".33"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/first_year_random_3"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textIdle"
+                android:layout_marginTop="8dp"
+                android:textSize="10sp"
+                android:text="Cómo posas para las cámaras antes de tu concierto (gruau). Ay, el gruau que me hiciste cuando te dije lo del chandal sexy, dios qué nervioso me puse hasta que me hiciste lo de la garra. Y qué me dices de esta foto?"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp"
+                android:weightSum="1">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_weight=".35"
+                    android:scaleType="fitXY"
+                    android:layout_marginEnd="4dp"
+                    android:src="@drawable/first_year_random_4"/>
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_weight=".30"
+                    android:scaleType="fitXY"
+                    android:layout_marginEnd="4dp"
+                    android:src="@drawable/first_year_random_5"/>
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_weight=".35"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/first_year_random_6"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textIdle"
+                android:layout_marginTop="8dp"
+                android:text="De la primera foto me acuerdo que fue un día que te fuiste de fiesta, y que te tuvieron que quitar el teléfono para no escribirme nada. En la segunda también te ibas de fiesta con tu prima, que me dijiste que estuviste super incómoda. Pero vaya, la última foto qué... Qué me aspen cuando la vi, me acuerdo que se la enseñé a Lucía y me dijo, 'tiene cara de decirte, enséñame tu Python Dani' lel."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textIdle"
+                android:layout_marginTop="8dp"
+                android:text="Y llegamos a la Ópera! Qué nervioso estaba cuando nos vimos, llevaba ensayándote decirte lo guapa que estabas, y no se me ocurre otra cosa que decirte que 'estás muy preciosa'... facepalm. Pero de verdad estabas preciosa. Ahora, menudo coñazo fue, que me aspen. Y después al McDonalds..."/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp"
+                android:weightSum="1">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_weight=".35"
+                    android:scaleType="fitXY"
+                    android:layout_marginEnd="4dp"
+                    android:src="@drawable/first_year_opera_1"/>
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_weight=".65"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/first_year_opera_2"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textIdle"
+                android:layout_marginTop="8dp"
+                android:text="Yo decidiendo qué ponerme..."/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp"
+                android:weightSum="1"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_weight=".35"
+                    android:scaleType="fitXY"
+                    android:layout_marginEnd="4dp"
+                    android:src="@drawable/first_year_opera_3"/>
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_weight=".35"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/first_year_opera_4"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textIdle"
+                android:layout_marginTop="8dp"
+                android:text="Y ya para terminar, en ese año, cuando volvimos a vernos en invierno, fue cuando descubrí tu adicción a los pepinillos. Me acuerdo que fuimos al McDonalds del Tres Aguas, y casi me haces ir a pedirle más pepinillos... que yo decía, que quiere que traiga un puñado de pepinillos?"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textIdle"
+                android:layout_marginTop="8dp"
+                android:text="Puedes avanzar a la siguiente pantalla."/>
+            
+        </LinearLayout>
+
+    </ScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/ic_next"/>
+
+</FrameLayout>
